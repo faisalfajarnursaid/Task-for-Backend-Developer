@@ -1,0 +1,28 @@
+{
+  "name": "@faisalfajar/cli-project",
+  "version": "1.0.0",
+  "description": "Test Backend",
+  "main": "src/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "faisal fajar",
+  "license": "ISC",
+  "bin": {
+    "@faisalfajar/cli-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "dependencies": {
+    "arg": "^5.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.1.2",
+    "yargs": "^13.2.4"
+  }
+}
